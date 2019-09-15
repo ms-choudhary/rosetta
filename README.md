@@ -9,6 +9,7 @@
 $ ./echo hello world
 hello world
 ```
+- Write a simple implementation of `cat` command
 - Write a simple implementation of `uniq` command.
 
 > uniq [input_file [output_file]]
