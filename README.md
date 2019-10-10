@@ -22,6 +22,8 @@ $ ./curl https://google.com https://stackoverflow.com
 ```
 - Write a program which recursively finds all the links in a HTML document & prints in the stdout.
 
+- Implement a concurrent ftp server. The server should interpret commands from each client such as `cd` to change directory, `ls` to list a directory, `get` to send the contents of file, and `close` to close the connection. You can use the standard `ftp` command as client, or write your own.
+
 - Write a program `crawler` which accepts a website as input and makes local copies of the pages it finds, creating directories as necessary. Don’t make copies of pages that come from a different domain. For example, if the original page comes from golang.org, save all files from there, but exclude ones from vimeo.com. Make this concurrent as possible. 
 
 - Write a simple implementation of `wc`
@@ -48,7 +50,7 @@ pow(x, 3) + pow(y, 3)
 (F - 32) * 5 / 9
 ```
 
-- Write a simple implementation of database.
+- Write sqlite db from scratch.
 
 - Write a simple implementation of `slack` app. User can send messages to other users. Users are part of a channel. All messages in channel are broadcasted to all users in that channel. Users can join & leave channel. 
 
